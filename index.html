@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Installer RM Team</title>
+<style>
+  :root { --bg:#f1eefb; --card:#fff; --line:#e4dff3; --ink:#231d3b; --muted:#7b7594; --accent:#6d4aff; --accent2:#a56bff; --pale:#ebe5ff; --yellow:#fff2c7; --yellow-ink:#7a5300; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:var(--ink);
+    background: radial-gradient(900px 500px at 15% 0%, #e2d8ff 0%, transparent 60%), radial-gradient(700px 500px at 100% 100%, #ffe1ee 0%, transparent 55%), var(--bg); min-height:100vh; }
+  main { max-width:760px; margin:0 auto; padding:48px 20px 64px; }
+  .brand { display:flex; align-items:center; gap:12px; font-weight:800; font-size:22px; letter-spacing:-.01em; }
+  .logo { width:44px; height:44px; border-radius:13px; display:grid; place-items:center; color:#fff; font-size:15px; font-weight:800; background:linear-gradient(135deg,var(--accent),var(--accent2)); box-shadow:0 8px 20px rgba(109,74,255,.3); }
+  h1 { font-size:34px; letter-spacing:-.02em; margin:28px 0 8px; line-height:1.15; }
+  .lead { color:var(--muted); margin:0 0 28px; font-size:17px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:20px; padding:22px; box-shadow:0 12px 34px rgba(49,32,120,.08); margin-bottom:16px; }
+  .card.main { border-color:#cfc5f2; }
+  .tag { display:inline-block; background:var(--pale); color:#4a2fd0; font-size:12px; font-weight:700; border-radius:999px; padding:2px 10px; margin-bottom:8px; }
+  h2 { font-size:19px; margin:0 0 4px; }
+  p { margin:0 0 12px; }
+  .muted { color:var(--muted); font-size:14px; }
+  .btn { display:inline-flex; align-items:center; gap:9px; text-decoration:none; font-weight:700; border-radius:13px; padding:13px 20px; border:1px solid var(--line); color:var(--ink); background:#fff; margin:4px 8px 4px 0; }
+  .btn:hover { background:#f6f3ff; }
+  .btn.primary { color:#fff; border-color:transparent; background:linear-gradient(135deg,var(--accent),var(--accent2)); box-shadow:0 6px 16px rgba(109,74,255,.3); }
+  .btn.primary:hover { filter:brightness(1.07); background:linear-gradient(135deg,var(--accent),var(--accent2)); }
+  .btn svg { width:18px; height:18px; flex:none; }
+  ol { margin:10px 0 0; padding-left:22px; }
+  li { margin-bottom:6px; }
+  .note { background:var(--yellow); color:var(--yellow-ink); border-radius:12px; padding:10px 14px; font-size:14px; margin-top:12px; }
+  .others { display:none; }
+  .other-title { font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); margin:26px 4px 10px; }
+  footer { color:var(--muted); font-size:13px; text-align:center; margin-top:28px; }
+  b.k { background:#f1eefb; border-radius:6px; padding:1px 6px; font-weight:600; }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand"><span class="logo">RM</span> RM Team</div>
+  <h1>Installez RM Team sur votre ordinateur</h1>
+  <p class="lead">Tâches, tickets, messages privés et assistant de l'équipe. L'installation prend une minute, et l'application se met ensuite à jour toute seule.</p>
+
+  <section id="win" class="card">
+    <span class="tag">Windows</span>
+    <h2>RM Team pour Windows</h2>
+    <p class="muted">Windows 10 ou 11.</p>
+    <a class="btn primary" href="https://github.com/SAS-RM-Technologies/rm-team-releases/releases/latest/download/RM-Team-windows-setup.exe">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 19h16"/></svg>
+      Télécharger pour Windows
+    </a>
+    <ol>
+      <li>Ouvrez le fichier téléchargé.</li>
+      <li>Si un écran bleu « Windows a protégé votre ordinateur » apparaît, cliquez sur <b class="k">Informations complémentaires</b>, puis sur <b class="k">Exécuter quand même</b>.</li>
+      <li>L'application s'installe et s'ouvre. Connectez-vous avec l'e-mail et le mot de passe que l'on vous a donnés.</li>
+    </ol>
+  </section>
+
+  <section id="mac" class="card">
+    <span class="tag">Mac</span>
+    <h2>RM Team pour Mac</h2>
+    <p class="muted">Pour savoir quel Mac vous avez : menu Pomme, « À propos de ce Mac ». S'il est écrit « Puce Apple M1, M2, M3 ou M4 », prenez le premier bouton ; s'il est écrit « Processeur Intel », le second.</p>
+    <a class="btn primary" href="https://github.com/SAS-RM-Technologies/rm-team-releases/releases/latest/download/RM-Team-mac-arm64.dmg">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 19h16"/></svg>
+      Mac à puce Apple
+    </a>
+    <a class="btn" href="https://github.com/SAS-RM-Technologies/rm-team-releases/releases/latest/download/RM-Team-mac-x64.dmg">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 19h16"/></svg>
+      Mac Intel
+    </a>
+    <ol>
+      <li>Ouvrez le fichier téléchargé et glissez RM Team dans le dossier <b class="k">Applications</b>.</li>
+      <li>Ouvrez RM Team depuis Applications. Si le Mac refuse de l'ouvrir, allez dans <b class="k">Réglages Système</b>, <b class="k">Confidentialité et sécurité</b>, descendez, puis cliquez sur <b class="k">Ouvrir quand même</b>.</li>
+      <li>Connectez-vous avec l'e-mail et le mot de passe que l'on vous a donnés.</li>
+    </ol>
+  </section>
+
+  <p class="note">L'avertissement au premier lancement est normal : il n'apparaît qu'une fois. Vous n'avez pas encore d'identifiants ? Demandez-les à votre responsable.</p>
+  <footer>RM Technologies · Application interne</footer>
+</main>
+<script>
+  // Met en avant le bloc qui correspond à l'ordinateur du visiteur ; l'autre reste disponible en dessous.
+  (function () {
+    var ua = navigator.userAgent, isMac = /Macintosh|Mac OS X/.test(ua), isWin = /Windows/.test(ua);
+    var win = document.getElementById('win'), mac = document.getElementById('mac');
+    var first = isMac ? mac : isWin ? win : null;
+    if (!first) return;
+    var other = first === mac ? win : mac;
+    first.classList.add('main');
+    var title = document.createElement('div');
+    title.className = 'other-title';
+    title.textContent = 'Un autre ordinateur ?';
+    first.parentNode.insertBefore(first, win.parentNode.querySelector('section'));
+    first.parentNode.insertBefore(title, other);
+  })();
+</script>
+</body>
+</html>
